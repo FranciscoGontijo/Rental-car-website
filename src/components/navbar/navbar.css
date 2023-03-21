@@ -1,0 +1,30 @@
+.nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.nav-bar-button {
+    height: 50px;
+    width: 50px;
+    margin-right: 5%;
+}
+
+.nav-bar-link-list {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .nav-bar-link-list {
+        display: flex;
+    }
+    .nav-bar-button {
+        display: none;
+    }
+}
