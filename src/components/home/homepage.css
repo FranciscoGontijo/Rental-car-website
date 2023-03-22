@@ -1,7 +1,7 @@
 /* HOME PAGE BODY */
 .home-page-container {
     margin-top: 80px;
-    padding: 0 10%;
+    padding: 0;
 }
 
 .background-hero-image {
@@ -13,15 +13,13 @@
 }
 
 @media (min-width: 800px) {
-    .home-page-container {
-        padding: 0 4%;
-    }
     .background-hero-image {
         display: block;
         position: absolute;
         top: 0;
         right: 0;
     }
+
     .background-hero-car-image {
         display: block;
         position: absolute;
@@ -36,6 +34,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    margin: 0 7%;
     background-color: transparent;
 }
 
@@ -90,7 +89,7 @@
 .orange-button {
     background-color: orangered;
     border: 2px solid orangered;
-    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, .35);
 }
 
 .black-button {
@@ -105,13 +104,16 @@
         padding: 20px 0;
         margin-top: 180px;
     }
+
     .home-page-hero-banner-text-container {
         align-items: start;
         width: 500px;
     }
+
     .home-page-hero-banner-text-container h1 {
         text-align: start;
     }
+
     .home-page-hero-banner-text-container p {
         text-align: start;
     }
@@ -124,8 +126,9 @@
     align-items: center;
     text-align: center;
     padding: 20px 0;
+    margin: 0 7%;
 }
-    
+
 .plan-your-trip-banner-container h2 {
     font-size: 42px;
     font-family: poppins, sans-serif;
@@ -169,6 +172,7 @@
     .plan-your-trip-banner-container {
         flex-wrap: wrap;
     }
+
     .trip-banner-boxes {
         max-width: 400px;
     }
@@ -178,4 +182,32 @@
     .trip-banner-boxes {
         max-width: 300px;
     }
+}
+
+/* RENTAL FLEET SECTION */
+/* SALES BANNER SECTION */
+.sales-banner {
+    background-color: #2d2d2d;
+    text-align: center;
+    margin: 8rem 0;
+    padding: 2rem 1rem;
+}
+
+.sales-banner h2 {
+    font-size: 52px;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.sales-banner p {
+    color: #fff;
+    font-size: 24px;
+    font-family: poppins, sans-serif;
+    margin-bottom: 25px;
+}
+
+.sales-banner span {
+    color: orangered;
 }

@@ -53,7 +53,7 @@ const HomePage = () => {
             <RentalFleet />
             <div className='sales-banner'>
                 <h2>Save big with our cheap car rental</h2>
-                <p>Top Airports. Local suppliers. 24/7 Support.</p>
+                <p>Top Airports. Local suppliers. <span>24/7</span> Support.</p>
             </div>
             <WhyUsBanner />
             <HomePageTestimonials />
