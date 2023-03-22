@@ -15,8 +15,8 @@ import "./homepage.css";
 const HomePage = () => {
     return (
         <section className='home-page-container'>
-            <img className="background-hero-image" src="#"/>
-            <img className='background-hero-car-image' src="#"/>
+            <img className="background-hero-image" src="#" />
+            <img className='background-hero-car-image' src="#" />
             <div className='home-page-hero-banner'>
                 <div className='home-page-hero-banner-text-container'>
                     <h4>Plan your trip now</h4>
@@ -29,23 +29,25 @@ const HomePage = () => {
                 </div>
             </div>
             <BookACar />
-            <div className='plan-your-trip-banner'>
-                <h2>Plan your trip now</h2>
-                <h1>Quick & easy car rental</h1>
-                <div>
-                    <img src="#" alt="car logo" />
-                    <h3>Select a car</h3>
-                    <p>We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs</p>
-                </div>
-                <div>
-                    <img src="#" alt="Operator on phone image" />
-                    <h3>Contact operator</h3>
-                    <p>Our knowledgeable and friendly operators are always ready to help with any questions or concerns</p>
-                </div>
-                <div>
-                    <img src="#" alt="Car moving image" />
-                    <h3>Let's Drive</h3>
-                    <p>Whether you're hitting the open road, we've got you covered with our wide range of cars</p>
+            <div className='plan-your-trip-banner-container'>
+                <h3>Plan your trip now</h3>
+                <h2>Quick & easy car rental</h2>
+                <div className='plan-your-trip-boxes-container'>
+                    <div className='trip-banner-boxes'>
+                        <img src="#" alt="car logo" />
+                        <h3>Select a car</h3>
+                        <p>We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs</p>
+                    </div>
+                    <div className='trip-banner-boxes'>
+                        <img src="#" alt="Operator on phone image" />
+                        <h3>Contact operator</h3>
+                        <p>Our knowledgeable and friendly operators are always ready to help with any questions or concerns</p>
+                    </div>
+                    <div className='trip-banner-boxes'>
+                        <img src="#" alt="Car moving image" />
+                        <h3>Let's Drive</h3>
+                        <p>Whether you're hitting the open road, we've got you covered with our wide range of cars</p>
+                    </div>
                 </div>
             </div>
             <RentalFleet />
