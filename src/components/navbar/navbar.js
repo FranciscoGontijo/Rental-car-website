@@ -32,6 +32,10 @@ const NavigationBar = () => {
                         <Link className="link" to="/contact">Contact</Link>
                     </li>
                 </ul>
+                <div className="nav-bar-sign-in-container">
+                    <button className="nav-bar-sign-in-button">Sign in</button>
+                    <button className="nav-bar-register-button">Register</button>
+                </div>
             </nav>
         </>
     )

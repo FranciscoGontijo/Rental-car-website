@@ -335,6 +335,10 @@
     margin-bottom: 2rem;
 }
 
+.testimonials-boxes-container {
+    padding: 0 0 90px;
+}
+
 .testimonials-boxes {
     background-color: #fff;
     box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
@@ -376,9 +380,24 @@
     font-weight: 500;
 }
 
+.second-testimonial {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .testimonials-boxes-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5%;
+    }
+    .second-testimonial {
+        display: block;
+    }
+}
+
 /* FAQ SECTION */
 .home-page-FAQ-container {
-    margin-bottom: 30px;
+    padding: 50px 0;
 }
 
 .home-page-FAQ-banner {
