@@ -1,13 +1,13 @@
 import React from 'react';
 
 //Import Components
-import BookACar from './bookacar';
-import RentalFleet from './vehicleshomepage';
-import WhyUsBanner from './whyusbanner';
-import HomePageTestimonials from './homepagetestimonials';
-import HomePageFAQ from './homepageFAQ';
-import DownloadAppSection from './downloadappsection';
-import Footer from '../footer/footer';
+import BookACar from '../../components/homepagecomponents/bookacar';
+import RentalFleet from '../../components/homepagecomponents/vehicleshomepage';
+import WhyUsBanner from '../../components/homepagecomponents/whyusbanner';
+import HomePageTestimonials from '../../components/homepagecomponents/homepagetestimonials';
+import HomePageFAQ from '../../components/homepagecomponents/homepageFAQ';
+import DownloadAppSection from '../../components/homepagecomponents/downloadappsection';
+import Footer from '../../components/footer/footer';
 
 //Import stylesheet
 import "./homepage.css";

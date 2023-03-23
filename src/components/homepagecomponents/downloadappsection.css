@@ -1,0 +1,22 @@
+/* DOWNLOAD APP SECTION */
+.home-page-download-app-container {
+    text-align: center;
+    padding: 10% 7%;
+    /* background-image: url()*/
+}
+
+.home-page-download-app-container h2 {
+    font-size: 42px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.home-page-download-app-container p {
+    color: #706f7b;
+    text-align: center;
+    font-size: 16px;
+    font-family: Rubik, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import './bookacar.css';
+import './homepagetestimonials.css';
 
 const HomePageTestimonials = () => {
     return (

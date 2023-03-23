@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import "./vehicleshomepage.css"
+
 const RentalFleet = () => {
     const [pickedCar, setPickedCar] = useState('audi');
 

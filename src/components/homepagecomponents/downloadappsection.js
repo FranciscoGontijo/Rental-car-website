@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./homepage.css"
+import "./downloadappsection.css"
 
 const DownloadAppSection = () => {
     return (

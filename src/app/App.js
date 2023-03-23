@@ -5,12 +5,12 @@ import './App.css';
 
 //Import components
 import NavigationBar from '../components/navbar/navbar';
-import HomePage from '../components/home/homepage';
-import AboutPage from '../components/about/aboutpage';
-import ModelsPage from '../components/vahicles/models';
-import TestimonialsPage from '../components/testimonials/testimonials';
-import OurTeamPage from '../components/team/ourteampage';
-import ContactPage from '../components/contact/contactpage';
+import HomePage from '../pages/home/homepage';
+import AboutPage from '../pages/about/aboutpage';
+import ModelsPage from '../pages/vahicles/models';
+import TestimonialsPage from '../pages/testimonials/testimonials';
+import OurTeamPage from '../pages/team/ourteampage';
+import ContactPage from '../pages/contact/contactpage';
 
 function App() {
   return (

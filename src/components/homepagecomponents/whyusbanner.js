@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./whyusbanner.css";
+
 const WhyUsBanner = () => {
     return (
         <section className="why-choose-us-container">
