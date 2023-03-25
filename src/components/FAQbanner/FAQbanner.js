@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "./homepageFAQ.css"
+import "./FAQbanner.css"
 
 const HomePageFAQ = () => {
     const [status, setStatus] = useState('hidden');
