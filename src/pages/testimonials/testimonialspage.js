@@ -2,12 +2,9 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 //Import Components
-import Testimonials from "../../components/testimonials/testimonials"
-import ContactBanner from "../../components/contactbanner/contactbanner"
+import Testimonials from "../../components/testimonials/testimonials";
+import ContactBanner from "../../components/contactbanner/contactbanner";
 import Footer from '../../components/footer/footer';
-
-//import images
-
 
 //import Stylesheet
 import "./testimonialspage.css";
