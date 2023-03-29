@@ -20,7 +20,7 @@ const Testimonials = () => {
                 <div className="testimonials-boxes">
                     <p>"We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable. "</p>
                     <div className="testimonials-boxes-profile-container">
-                        <img src={profilePhoto1Src} alt="Profile photo" />
+                        <img src={profilePhoto1Src} alt="Profile" />
                         <div className="testimonials-boxes-name-container">
                             <h4>Parry Hotter</h4>
                             <p>Belgrade</p>
@@ -30,7 +30,7 @@ const Testimonials = () => {
                 <div className="testimonials-boxes second-testimonial">
                 <p>"The car was in great condition and made our trip even better. Highly recommend for this car rental website!"</p>
                     <div className="testimonials-boxes-profile-container">
-                        <img src={profilePhoto2Src} alt="Profile photo" />
+                        <img src={profilePhoto2Src} alt="Profile" />
                         <div className="testimonials-boxes-name-container">
                             <h4>Ron Rizzly</h4>
                             <p>Novi Sad</p>

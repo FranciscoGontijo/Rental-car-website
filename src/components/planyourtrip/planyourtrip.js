@@ -19,12 +19,12 @@ const PlanYourTripComponent = () => {
                         <p>We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs</p>
                     </div>
                     <div className='trip-banner-boxes'>
-                        <img src={operatorLogoSrc} alt="Operator on phone image" />
+                        <img src={operatorLogoSrc} alt="Operator on phone" />
                         <h3>Contact operator</h3>
                         <p>Our knowledgeable and friendly operators are always ready to help with any questions or concerns</p>
                     </div>
                     <div className='trip-banner-boxes'>
-                        <img src={carDrivingLogoSrc} alt="Car moving image" />
+                        <img src={carDrivingLogoSrc} alt="Car moving" />
                         <h3>Let's Drive</h3>
                         <p>Whether you're hitting the open road, we've got you covered with our wide range of cars</p>
                     </div>

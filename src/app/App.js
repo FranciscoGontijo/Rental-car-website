@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import './App.css';
@@ -13,6 +13,7 @@ import OurTeamPage from '../pages/team/ourteampage';
 import ContactPage from '../pages/contact/contactpage';
 
 function App() {
+
   return (
     <>
       <NavigationBar />
@@ -26,6 +27,6 @@ function App() {
       </Routes>
     </>
   );
-}
+};
 
 export default App;

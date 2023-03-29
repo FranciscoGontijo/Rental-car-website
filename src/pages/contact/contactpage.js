@@ -27,9 +27,9 @@ const ContactPage = () => {
                         development as well as a learning specialist. 
                         Over 15 years of experience.</p>   
                         <div className='contacts-container'>
-                        <p><i class="fa-solid fa-phone"></i> (123)456-789</p>
-                        <p><i class="fa-solid fa-envelope"></i> carretntal@carmail.com</p>
-                        <p><i class="fa-solid fa-location-dot"></i> Sydney, Australia</p>
+                        <p><i className="fa-solid fa-phone"></i> (123)456-789</p>
+                        <p><i className="fa-solid fa-envelope"></i> carretntal@carmail.com</p>
+                        <p><i className="fa-solid fa-location-dot"></i> Sydney, Australia</p>
                         </div>             
                 </div>
                 <div className='form-container'>
@@ -40,7 +40,7 @@ const ContactPage = () => {
                         <input type="email" placeholder='youremail@example.com' />
                         <label>Tell us about it <b>*</b></label>
                         <textarea placeholder='Write here..' />
-                        <button type="submit"><i class="fa-solid fa-envelope"></i> Send Message</button>
+                        <button type="submit"><i className="fa-solid fa-envelope"></i> Send Message</button>
                     </form>
                 </div>
             </div>

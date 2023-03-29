@@ -29,32 +29,32 @@ const OurTeamPage = () => {
             </div>
             <div className='team-profiles-container'>
                 <div className='profile-box'>
-                    <img alt="Luke Miller profile picture" src={LukeProfileSrc} />
+                    <img alt="Luke Miller" src={LukeProfileSrc} />
                     <h3>Luke Miller</h3>
                     <p>Salesman</p>
                 </div>
                 <div className='profile-box'>
-                    <img alt="Michael Diaz profile picture" src={MichaelProfileSrc} />
+                    <img alt="Michael Diaz" src={MichaelProfileSrc} />
                     <h3>Michael Diaz</h3>
                     <p>Bussines Owner</p>
                 </div>
                 <div className='profile-box'>
-                    <img alt=">Briana Ross profile picture" src={BrianaProfileSrc} />
+                    <img alt=">Briana Ross" src={BrianaProfileSrc} />
                     <h3>Briana Ross</h3>
                     <p>Photographer</p>
                 </div>
                 <div className='profile-box'>
-                    <img alt="Lauren Rivera profile picture" src={LaurenProfileSrc} />
+                    <img alt="Lauren Rivera" src={LaurenProfileSrc} />
                     <h3>Lauren Rivera</h3>
                     <p>Car Detailist</p>
                 </div>
                 <div className='profile-box'>
-                    <img alt="Martin Rizz profile picture" src={MartinProfileSrc} />
+                    <img alt="Martin Rizz" src={MartinProfileSrc} />
                     <h3>Martin Rizz</h3>
                     <p>Mechanic</p>
                 </div>
                 <div className='profile-box'>
-                    <img alt="Caitlyn Hunt profile picture" src={CaitlynProfileSrc} />
+                    <img alt="Caitlyn Hunt" src={CaitlynProfileSrc} />
                     <h3>Caitlyn Hunt</h3>
                     <p>Menager</p>
                 </div>

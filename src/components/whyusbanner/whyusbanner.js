@@ -11,7 +11,7 @@ import hiddenChargesLogoSrc from "../../assets/images/no-hidden-charges-logo.png
 const WhyUsBanner = () => {
     return (
         <section className="why-choose-us-container">
-            <img src={whyChooseUseBannerSrc} className="why-choose-us-main-img" />
+            <img alt="cars banner" src={whyChooseUseBannerSrc} className="why-choose-us-main-img" />
             <div className="why-choose-us-banner">
                 <h3>Why Choose Us</h3>
                 <h2>Best valued deals you will ever find</h2>
@@ -24,17 +24,17 @@ const WhyUsBanner = () => {
             </div>
             <div className="why-choose-us-boxes-container">
                 <div className="why-choose-us-boxes">
-                    <img src={crossCountryLogoSrc} alt="car image" />
+                    <img src={crossCountryLogoSrc} alt="car" />
                     <h3>Cross country drive</h3>
                     <p>Take your driving experience to the next level with our top-notch vehicles for your cross-country adventures.</p>
                 </div>
                 <div className="why-choose-us-boxes">
-                    <img src={allInclusiveLogoSrc} alt="money image" />
+                    <img src={allInclusiveLogoSrc} alt="money" />
                     <h3>All Inclusive pricing</h3>
                     <p>Get everything you need in one convenient, transparent price with our all-inclusive pricing policy.</p>
                 </div>
                 <div className="why-choose-us-boxes">
-                    <img src={hiddenChargesLogoSrc} alt="hands holding a coin image" />
+                    <img src={hiddenChargesLogoSrc} alt="hands holding a coin" />
                     <h3>No hidden charges</h3>
                     <p>Enjoy peace of mind with our no hidden charges policy. We believe in transparent and honest pricing.</p>
                 </div>

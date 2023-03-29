@@ -11,7 +11,7 @@ const Footer = () => {
                 <ul className="contact-list">
                     <li><i></i><h4>(123)-456-789</h4></li>
                     <li><i></i><h4>carrental@gmail.com</h4></li>
-                    <li><a href="https://xpeedstudio.com/" target="_blank">Design by xpeedstudio/</a></li>
+                    <li><a href="https://xpeedstudio.com/" rel="noreferrer" target="_blank">Design by xpeedstudio/</a></li>
                 </ul>
             </div>
             <div className="footer-company-container">
