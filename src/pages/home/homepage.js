@@ -1,13 +1,18 @@
 import React from 'react';
 
 //Import Components
-import BookACar from '../../components/homepagecomponents/bookacar';
-import RentalFleet from '../../components/homepagecomponents/vehicleshomepage';
-import WhyUsBanner from '../../components/homepagecomponents/whyusbanner';
-import HomePageTestimonials from '../../components/homepagecomponents/homepagetestimonials';
-import HomePageFAQ from '../../components/homepagecomponents/homepageFAQ';
-import DownloadAppSection from '../../components/homepagecomponents/downloadappsection';
+import BookACar from '../../components/bookacar/bookacar';
+import PlanYourTripComponent from '../../components/planyourtrip/planyourtrip';
+import RentalFleet from '../../components/modelsdisplay/modelsdisplay';
+import WhyUsBanner from '../../components/whyusbanner/whyusbanner';
+import HomePageTestimonials from '../../components/testimonials/testimonials';
+import HomePageFAQ from '../../components/FAQbanner/FAQbanner';
+import DownloadAppSection from '../../components/downloadapp/downloadappsection';
 import Footer from '../../components/footer/footer';
+
+//Import images 
+import bannerMainCarSrc from '../../assets/images/banner-main-car.png';
+import homePageMainBannerBackgroundImageSrc from '../../assets/images/banner-background-back-image.png';
 
 //Import stylesheet
 import "./homepage.css";
@@ -15,8 +20,8 @@ import "./homepage.css";
 const HomePage = () => {
     return (
         <section className='home-page-container'>
-            <img className="background-hero-image" src="#" />
-            <img className='background-hero-car-image' src="#" />
+            <img alt="" className="background-hero-image" src={homePageMainBannerBackgroundImageSrc}/>
+            <img alt="" className='background-hero-car-image' src={bannerMainCarSrc} />
             <div className='home-page-hero-banner'>
                 <div className='home-page-hero-banner-text-container'>
                     <h4>Plan your trip now</h4>
@@ -24,32 +29,12 @@ const HomePage = () => {
                     <p>Rent the car of your dreams. Unbeatable prices, unlimited miles, flexible pick-up options and much more.</p>
                 </div>
                 <div className='home-page-hero-banner-buttons-container'>
-                    <button className='orange-button'>Book Ride<i></i></button>
-                    <button className='black-button'>Learn More<i></i></button>
+                    <button className='orange-button'>Book Ride<i className="fa-solid fa-circle-check"></i></button>
+                    <button className='black-button'>Learn More<i className="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>
             <BookACar />
-            <div className='plan-your-trip-banner-container'>
-                <h3>Plan your trip now</h3>
-                <h2>Quick & easy car rental</h2>
-                <div className='plan-your-trip-boxes-container'>
-                    <div className='trip-banner-boxes'>
-                        <img src="#" alt="car logo" />
-                        <h3>Select a car</h3>
-                        <p>We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs</p>
-                    </div>
-                    <div className='trip-banner-boxes'>
-                        <img src="#" alt="Operator on phone image" />
-                        <h3>Contact operator</h3>
-                        <p>Our knowledgeable and friendly operators are always ready to help with any questions or concerns</p>
-                    </div>
-                    <div className='trip-banner-boxes'>
-                        <img src="#" alt="Car moving image" />
-                        <h3>Let's Drive</h3>
-                        <p>Whether you're hitting the open road, we've got you covered with our wide range of cars</p>
-                    </div>
-                </div>
-            </div>
+            <PlanYourTripComponent/>
             <RentalFleet />
             <div className='sales-banner'>
                 <h2>Save big with our cheap car rental</h2>

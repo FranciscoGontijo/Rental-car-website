@@ -1,6 +1,6 @@
 /* HOME PAGE BODY */
 .home-page-container {
-    margin-top: 80px;
+    margin-top: 110px;
     padding: 0;
 }
 
@@ -18,13 +18,16 @@
         position: absolute;
         top: 0;
         right: 0;
+        z-index: -2;
     }
 
     .background-hero-car-image {
         display: block;
         position: absolute;
-        top: 150px;
-        right: 10%;
+        right: 3%;
+        top: 100px;
+        z-index: -1;
+        max-width: 60%;
     }
 }
 
@@ -33,10 +36,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    margin: 0 7%;
+    padding: 0 20px;
     background-color: transparent;
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .home-page-hero-banner-text-container {
@@ -88,6 +91,10 @@
     cursor: pointer;
 }
 
+.home-page-hero-banner-buttons-container button i {
+    margin-left: 10px;
+}
+
 .orange-button {
     background-color: orangered;
     border: 2px solid orangered;
@@ -100,11 +107,16 @@
     box-shadow: 0 10px 15px 0 rgba(44, 44, 44, 0.35);
 }
 
+.black-button:hover {
+    background-color: white;
+    color: black;
+}
+
 @media (min-width: 800px) {
     .home-page-hero-banner {
         align-items: start;
-        padding: 20px 0;
-        margin-top: 180px;
+        padding: 0 20px;
+        margin-top: 150px;
     }
 
     .home-page-hero-banner-text-container {
@@ -119,63 +131,10 @@
     .home-page-hero-banner-text-container p {
         text-align: start;
     }
-}
 
-/* PLAN YOUR TRIP BANNER SECTION */
-.plan-your-trip-banner-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0 7%;
-}
-
-.plan-your-trip-banner-container h2 {
-    font-size: 42px;
-    font-family: poppins, sans-serif;
-    font-weight: 700;
-    margin-top: 15px;
-}
-
-.plan-your-trip-banner-container h3 {
-    font-size: 24px;
-    font-family: Rubik, sans-serif;
-    font-weight: 500;
-    margin: 0;
-}
-
-.plan-your-trip-boxes-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-}
-
-.trip-banner-boxes {
-    max-width: 600px;
-    padding: 20px 40px;
-}
-
-.trip-banner-boxes h3 {
-    font-size: 24px;
-    font-family: poppins, sans-serif;
-    font-weight: 700;
-}
-
-.trip-banner-boxes p {
-    color: #706f7b;
-    text-align: center;
-    font-size: 17px;
-    margin-bottom: 2rem;
-}
-
-@media (min-width: 800px) {
-    .plan-your-trip-banner-container {
-        flex-wrap: wrap;
-    }
-    .trip-banner-boxes {
-        max-width: 300px;
+    .home-page-hero-banner-buttons-container button {
+        width: 170px;
+        padding: 18px 30px; 
     }
 }
 
