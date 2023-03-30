@@ -38,16 +38,16 @@ const ModelsPage = () => {
                             <p>per day</p>
                         </div>
                         <div className='car-brand column-left'>
-                        <i class="fa-solid fa-car-side"></i><span>Audi</span>
+                        <i className="fa-solid fa-car-side"></i><span>Audi</span>
                         </div>
                         <div className='car-quantity column-right'>
-                            <span>4/5<i class="fa-solid fa-car-side"></i></span>
+                            <span>4/5<i className="fa-solid fa-car-side"></i></span>
                         </div>
                         <div className='car-gearbox-type column-left'>
-                            <span><i class="fa-solid fa-car-side"></i>Manual</span>
+                            <span><i className="fa-solid fa-car-side"></i>Manual</span>
                         </div>
                         <div className='car-fuel-type column-right'>
-                            <span>Diesel<i class="fa-solid fa-car-side"></i></span>
+                            <span>Diesel<i className="fa-solid fa-car-side"></i></span>
                         </div>
                     </div>
                     <div className='bar'></div>
@@ -71,16 +71,16 @@ const ModelsPage = () => {
                             <p>per day</p>
                         </div>
                         <div className='car-brand column-left'>
-                            <span><i class="fa-solid fa-car-side"></i>Audi</span>
+                            <span><i className="fa-solid fa-car-side"></i>Audi</span>
                         </div>
                         <div className='car-quantity column-right'>
-                            <span>4/5<i class="fa-solid fa-car-side"></i></span>
+                            <span>4/5<i className="fa-solid fa-car-side"></i></span>
                         </div>
                         <div className='car-gearbox-type column-left'>
-                            <span><i class="fa-solid fa-car-side"></i>Manual</span>
+                            <span><i className="fa-solid fa-car-side"></i>Manual</span>
                         </div>
                         <div className='car-fuel-type column-right'>
-                            <span>Diesel<i class="fa-solid fa-car-side"></i></span>
+                            <span>Diesel<i className="fa-solid fa-car-side"></i></span>
                         </div>
                     </div>
                     <div className='bar'></div>
@@ -104,16 +104,16 @@ const ModelsPage = () => {
                             <p>per day</p>
                         </div>
                         <div className='car-brand column-left'>
-                            <span><i class="fa-solid fa-car-side"></i>Audi</span>
+                            <span><i className="fa-solid fa-car-side"></i>Audi</span>
                         </div>
                         <div className='car-quantity column-right'>
-                            <span>4/5<i class="fa-solid fa-car-side"></i></span>
+                            <span>4/5<i className="fa-solid fa-car-side"></i></span>
                         </div>
                         <div className='car-gearbox-type column-left'>
-                            <span><i class="fa-solid fa-car-side"></i>Manual</span>
+                            <span><i className="fa-solid fa-car-side"></i>Manual</span>
                         </div>
                         <div className='car-fuel-type column-right'>
-                            <span>Diesel<i class="fa-solid fa-car-side"></i></span>
+                            <span>Diesel<i className="fa-solid fa-car-side"></i></span>
                         </div>
                     </div>
                     <div className='bar'></div>
@@ -137,16 +137,16 @@ const ModelsPage = () => {
                             <p>per day</p>
                         </div>
                         <div className='car-brand column-left'>
-                            <span><i class="fa-solid fa-car-side"></i>Audi</span>
+                            <span><i className="fa-solid fa-car-side"></i>Audi</span>
                         </div>
                         <div className='car-quantity column-right'>
-                            <span>4/5<i class="fa-solid fa-car-side"></i></span>
+                            <span>4/5<i className="fa-solid fa-car-side"></i></span>
                         </div>
                         <div className='car-gearbox-type column-left'>
-                            <span><i class="fa-solid fa-car-side"></i>Manual</span>
+                            <span><i className="fa-solid fa-car-side"></i>Manual</span>
                         </div>
                         <div className='car-fuel-type column-right'>
-                            <span>Diesel<i class="fa-solid fa-car-side"></i></span>
+                            <span>Diesel<i className="fa-solid fa-car-side"></i></span>
                         </div>
                     </div>
                     <div className='bar'></div>
@@ -170,16 +170,16 @@ const ModelsPage = () => {
                             <p>per day</p>
                         </div>
                         <div className='car-brand column-left'>
-                            <span><i class="fa-solid fa-car-side"></i>Audi</span>
+                            <span><i className="fa-solid fa-car-side"></i>Audi</span>
                         </div>
                         <div className='car-quantity column-right'>
-                            <span>4/5<i class="fa-solid fa-car-side"></i></span>
+                            <span>4/5<i className="fa-solid fa-car-side"></i></span>
                         </div>
                         <div className='car-gearbox-type column-left'>
-                            <span><i class="fa-solid fa-car-side"></i>Manual</span>
+                            <span><i className="fa-solid fa-car-side"></i>Manual</span>
                         </div>
                         <div className='car-fuel-type column-right'>
-                            <span>Diesel<i class="fa-solid fa-car-side"></i></span>
+                            <span>Diesel<i className="fa-solid fa-car-side"></i></span>
                         </div>
                     </div>
                     <div className='bar'></div>
@@ -203,16 +203,16 @@ const ModelsPage = () => {
                             <p>per day</p>
                         </div>
                         <div className='car-brand column-left'>
-                            <span><i class="fa-solid fa-car-side"></i>Audi</span>
+                            <span><i className="fa-solid fa-car-side"></i>Audi</span>
                         </div>
                         <div className='car-quantity column-right'>
-                            <span>4/5<i class="fa-solid fa-car-side"></i></span>
+                            <span>4/5<i className="fa-solid fa-car-side"></i></span>
                         </div>
                         <div className='car-gearbox-type column-left'>
-                            <span><i class="fa-solid fa-car-side"></i>Manual</span>
+                            <span><i className="fa-solid fa-car-side"></i>Manual</span>
                         </div>
                         <div className='car-fuel-type column-right'>
-                            <span>Diesel<i class="fa-solid fa-car-side"></i></span>
+                            <span>Diesel<i className="fa-solid fa-car-side"></i></span>
                         </div>
                     </div>
                     <div className='bar'></div>
