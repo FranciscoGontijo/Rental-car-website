@@ -29,8 +29,6 @@
     line-height: 1.5;
 }
 
-.home-page-rental-fleet-pick-a-car-container {}
-
 .home-page-rental-fleet-car-list {
     display: grid;
     grid-template-columns: 1fr;

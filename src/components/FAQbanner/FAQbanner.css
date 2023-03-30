@@ -1,6 +1,15 @@
 /* FAQ SECTION */
 .home-page-FAQ-container {
     padding: 50px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.FAQ-banner-image {
+    position: absolute;
+    bottom: 20px;
+    z-index: -2;
 }
 
 .home-page-FAQ-banner {
@@ -36,6 +45,8 @@
 .questions-container {
     margin: 0 7%;
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.182);
+    max-width: 800px;
+    align-self: center;
 }
 
 .question-button {
@@ -46,6 +57,13 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    height: 63px;
+    transition: .4s ease-in-out;
+}
+
+.shown {
+    background-color: orangered;
+    color: #fff;
 }
 
 .question-button p {
@@ -56,10 +74,23 @@
 }
 
 .answer {
-    padding: 10%;
     color: #706f7b;
-    font-family: Rubik,sans-serif;
+    font-family: Rubik, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.7;
+    max-height: 0;
+    padding:0 10%;
+    overflow: hidden;
+    transition: .4s ease;
+}
+
+.answer-active {
+    max-height: 20rem;
+    padding: 2% 10%;
+    transition: .4s ease;
+}
+
+.shown-div {
+    display: block;
 }
