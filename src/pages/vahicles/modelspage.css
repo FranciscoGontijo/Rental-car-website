@@ -96,7 +96,7 @@
 
 .model-description {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.1fr 1fr;
     padding: 15px 10%;
     row-gap: 15px;
     margin-bottom: 10px;

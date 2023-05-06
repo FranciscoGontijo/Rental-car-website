@@ -14,7 +14,7 @@ const RentalFleet = () => {
     const [pickedCar, setPickedCar] = useState('audi');
     const [price, setPrice] = useState('45');
     const [model, setModel] = useState('A1');
-    const [mark, setMark] = useState('Audi')
+    const [brand, setBrand] = useState('Audi')
     const [year, setYear] = useState('2012');
     const [doors, setDoors] = useState('4');
     const [ac, setAc] = useState('Yes');
@@ -25,7 +25,7 @@ const RentalFleet = () => {
         setPickedCar('audi');
         setPrice('45');
         setModel('A1');
-        setMark('Audi');
+        setBrand('Audi');
         setYear('2012');
         setDoors('4');
         setAc('Yes');
@@ -37,7 +37,7 @@ const RentalFleet = () => {
         setPickedCar('golf');
         setPrice('37');
         setModel('Golf 6');
-        setMark('Volkswagen');
+        setBrand('Volkswagen');
         setYear('2008');
         setDoors('4');
         setAc('Yes');
@@ -49,7 +49,7 @@ const RentalFleet = () => {
         setPickedCar('camry');
         setPrice('30');
         setModel('Camry');
-        setMark('Toyota');
+        setBrand('Toyota');
         setYear('2006');
         setDoors('4');
         setAc('Yes');
@@ -61,7 +61,7 @@ const RentalFleet = () => {
         setPickedCar('bmw');
         setPrice('35');
         setModel('320');
-        setMark('BMW');
+        setBrand('BMW');
         setYear('2012');
         setDoors('4');
         setAc('Yes');
@@ -73,7 +73,7 @@ const RentalFleet = () => {
         setPickedCar('glk');
         setPrice('50');
         setModel('GLK');
-        setMark('Mercedes');
+        setBrand('Mercedes');
         setYear('2006');
         setDoors('4');
         setAc('Yes');
@@ -85,7 +85,7 @@ const RentalFleet = () => {
         setPickedCar('passat');
         setPrice('25');
         setModel('Passat CC');
-        setMark('Volkswagen');
+        setBrand('Volkswagen');
         setYear('2008');
         setDoors('4');
         setAc('Yes');
@@ -122,7 +122,7 @@ const RentalFleet = () => {
                     <div className="table">
                         <div className="head"><span className="price-tag">${price}</span><span>/ rent per day</span></div>
                         <div className="row"><span className="span-left">Model</span><span>{model}</span></div>
-                        <div className="row"><span className="span-left">Mark</span><span>{mark}</span></div>
+                        <div className="row"><span className="span-left">Brand</span><span>{brand}</span></div>
                         <div className="row"><span className="span-left">Year</span><span>{year}</span></div>
                         <div className="row"><span className="span-left">Doors</span><span>{doors}</span></div>
                         <div className="row"><span className="span-left">AC</span><span>{ac}</span></div>
