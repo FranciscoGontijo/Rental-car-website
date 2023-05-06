@@ -36,6 +36,9 @@
     text-align: center;
     padding: 15% 7%;
 }
+.about-company-container .main-about-page-image {
+    width: 100%;
+}
 
 .about-company-container h3 {
     font-size: 22px;

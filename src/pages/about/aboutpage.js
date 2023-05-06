@@ -26,7 +26,7 @@ const AboutPage = () => {
             </div>
             </div>
             <div className='about-company-container'>
-                <img src={aboutCompanyImageSrc} alt="Two employees with a catalog" />
+                <img className='main-about-page-image' src={aboutCompanyImageSrc} alt="Two employees with a catalog" />
                 <div className='about-company-information-container'>
                     <div className='about-company-text-container'>
                         <h3>About Company</h3>
