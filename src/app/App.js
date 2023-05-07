@@ -7,7 +7,7 @@ import './App.css';
 import NavigationBar from '../components/navbar/navbar';
 import HomePage from '../pages/home/homepage';
 import AboutPage from '../pages/about/aboutpage';
-import ModelsPage from '../pages/vahicles/modelspage';
+import ModelsPage from '../pages/vehicles/modelspage';
 import TestimonialsPage from '../pages/testimonials/testimonialspage';
 import OurTeamPage from '../pages/team/ourteampage';
 import ContactPage from '../pages/contact/contactpage';
