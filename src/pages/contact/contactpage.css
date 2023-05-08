@@ -132,3 +132,15 @@
 .form-container button i {
     margin-right: 5px;
 }
+
+.sended-message-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.sended-message-section .social-icon {
+    font-size: 23px;
+    color: orangered;
+    margin-right: 40px;
+}
