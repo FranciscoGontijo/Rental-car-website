@@ -141,6 +141,6 @@
 
 .sended-message-section .social-icon {
     font-size: 23px;
-    color: orangered;
+    color: orangered !important;
     margin-right: 40px;
 }
