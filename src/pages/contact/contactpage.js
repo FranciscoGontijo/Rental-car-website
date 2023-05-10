@@ -48,15 +48,14 @@ const ContactPage = () => {
                         <button onClick={() => setDisplay('message')} type="submit"><i className="fa-solid fa-envelope"></i> Send Message</button>
                     </form>}
                     {display === 'message' && <div className='sended-message-section'>
-                <h1>Message sent successfully</h1>
-                <p>This is just a simulation, if you want to get in touch with the developer use this <a href="https://www.linkedin.com/in/francisco-gontijo-5a469b239/" target="_blank">link</a> or send an email to franciscoacmg@gmail.com</p>
-                <div>
-                    <a href="https://github.com/FranciscoGontijo"><i className="fa-brands fa-github social-icon"></i></a>
-                    <a href="https://www.linkedin.com/in/francisco-alexandre-cardoso-melo-gontijo-5a469b239/"><i className="fa-brands fa-linkedin social-icon"></i></a>
-                </div>
-                <button onClick={() => setDisplay('form')}>Back</button>
-            </div>}
-
+                        <h1>Message sent successfully</h1>
+                        <p>This is just a simulation, if you want to get in touch with the developer use this <a href="https://www.linkedin.com/in/francisco-gontijo-5a469b239/" target="_blank">link</a> or send an email to franciscoacmg@gmail.com</p>
+                        <div>
+                            <a href="https://github.com/FranciscoGontijo"><i className="fa-brands fa-github social-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/francisco-alexandre-cardoso-melo-gontijo-5a469b239/"><i className="fa-brands fa-linkedin social-icon"></i></a>
+                        </div>
+                        <button onClick={() => setDisplay('form')}>Back</button>
+                    </div>}
                 </div>
             </div>
             <ContactBanner />
