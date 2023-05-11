@@ -88,8 +88,8 @@
 }
 
 .answer-active {
-    max-height: 20rem;
-    padding: 2% 10%;
+    max-height: fit-content;
+    padding: 3% 10%;
     transition: .4s ease;
 }
 
