@@ -8,65 +8,9 @@ import Footer from '../../components/footer/footer';
 //import Stylesheet
 import "./modelspage.css";
 
-//import images
-import audiDisplaySrc from "../../assets/images/audi-a1-display.jpg";
-import golfDisplaySrc from "../../assets/images/golf-6-display.jpg";
-import camryDisplaySrc from "../../assets/images/toyota-camry-display.jpg";
-import bmwDisplaySrc from "../../assets/images/bmw-320-display.jpg";
-import glkDisplaySrc from "../../assets/images/mercedes-glk-display.jpg";
-import passatDisplaySrc from "../../assets/images/vw-passat-display.jpg";
+//import moked cars array 
+import { cars } from '../../util/data';
 
-
-const cars = [
-    {
-        name: 'Audi A1',
-        brand: 'Audi',
-        transmission: 'Manual',
-        fuel: 'Diesel',
-        imageSrc: audiDisplaySrc,
-        price: 45
-    },
-    {
-        name: 'Golf 6',
-        brand: 'Volkswagen',
-        transmission: 'Manual',
-        fuel: 'Diesel',
-        imageSrc: golfDisplaySrc,
-        price: 37
-    },
-    {
-        name: 'Camry',
-        brand: 'Toyota',
-        transmission: 'Automatic',
-        fuel: 'Hybrid',
-        imageSrc: camryDisplaySrc,
-        price: 30
-    },
-    {
-        name: 'BMW 320',
-        brand: 'BMW',
-        transmission: 'Manual',
-        fuel: 'Diesel',
-        imageSrc: bmwDisplaySrc,
-        price: 35
-    },
-    {
-        name: 'GLK',
-        brand: 'Mercedes',
-        transmission: 'Manual',
-        fuel: 'Diesel',
-        imageSrc: glkDisplaySrc,
-        price: 50
-    },
-    {
-        name: 'Passat',
-        brand: 'Volkswagen',
-        transmission: 'Automatic',
-        fuel: 'Gasoline',
-        imageSrc: passatDisplaySrc,
-        price: 25
-    }
-]
 
 const ModelsPage = () => {
     return (

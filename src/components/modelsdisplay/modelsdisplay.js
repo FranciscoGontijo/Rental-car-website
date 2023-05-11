@@ -10,90 +10,17 @@ import bmwDisplaySrc from "../../assets/images/bmw-320-display.jpg";
 import glkDisplaySrc from "../../assets/images/mercedes-glk-display.jpg";
 import passatDisplaySrc from "../../assets/images/vw-passat-display.jpg";
 
+//import mocked cars array
+import { cars } from "../../util/data";
+
 const RentalFleet = () => {
-    const [pickedCar, setPickedCar] = useState('audi');
-    const [price, setPrice] = useState('45');
-    const [model, setModel] = useState('A1');
-    const [brand, setBrand] = useState('Audi')
-    const [year, setYear] = useState('2012');
-    const [doors, setDoors] = useState('4');
-    const [ac, setAc] = useState('Yes');
-    const [transmission, setTransmission] = useState('Manual');
-    const [fuel, setFuel] = useState('Gasoline');
+    const [carDetails, setCarDetails] = useState(cars[0]);
 
-    const selectAudi = () => {
-        setPickedCar('audi');
-        setPrice('45');
-        setModel('A1');
-        setBrand('Audi');
-        setYear('2012');
-        setDoors('4');
-        setAc('Yes');
-        setTransmission('Manual');
-        setFuel('Gasoline');
-    };
+    const selectCar = (name) => {
+        const car = cars.filter((carObj) => carObj.name === name)[0];
+        setCarDetails(car);
+    }
 
-    const selectGolf = () => {
-        setPickedCar('golf');
-        setPrice('37');
-        setModel('Golf 6');
-        setBrand('Volkswagen');
-        setYear('2008');
-        setDoors('4');
-        setAc('Yes');
-        setTransmission('Manual');
-        setFuel('Diesel');
-    };
-
-    const selectCamry = () => {
-        setPickedCar('camry');
-        setPrice('30');
-        setModel('Camry');
-        setBrand('Toyota');
-        setYear('2006');
-        setDoors('4');
-        setAc('Yes');
-        setTransmission('Automatic');
-        setFuel('Hybrid');
-    };
-
-    const selectBMW = () => {
-        setPickedCar('bmw');
-        setPrice('35');
-        setModel('320');
-        setBrand('BMW');
-        setYear('2012');
-        setDoors('4');
-        setAc('Yes');
-        setTransmission('Manual');
-        setFuel('Diesel');
-    };
-
-    const selectGLK = () => {
-        setPickedCar('glk');
-        setPrice('50');
-        setModel('GLK');
-        setBrand('Mercedes');
-        setYear('2006');
-        setDoors('4');
-        setAc('Yes');
-        setTransmission('Manual');
-        setFuel('Diesel');
-    };
-
-    const selectPassat = () => {
-        setPickedCar('passat');
-        setPrice('25');
-        setModel('Passat CC');
-        setBrand('Volkswagen');
-        setYear('2008');
-        setDoors('4');
-        setAc('Yes');
-        setTransmission('Automatic');
-        setFuel('Gasoline');
-    };
-
-    //use state to choose between the cars
     return (
         <section className="home-page-rental-fleet-container">
             <div className="home-page-rental-fleet-banner">
@@ -103,31 +30,31 @@ const RentalFleet = () => {
             </div>
             <div className="home-page-rental-fleet-pick-a-car-container">
                 <div className="home-page-rental-fleet-car-list">
-                    <button className={pickedCar === 'audi' ? 'active select-car-button' : 'select-car-button'} onClick={selectAudi}>Audi A1 S-Line</button>
-                    <button className={pickedCar === 'golf' ? 'active select-car-button' : 'select-car-button'} onClick={selectGolf}>VW Golf 6</button>
-                    <button className={pickedCar === 'camry' ? 'active select-car-button' : 'select-car-button'} onClick={selectCamry}>Toyota Camry</button>
-                    <button className={pickedCar === 'bmw' ? 'active select-car-button' : 'select-car-button'} onClick={selectBMW}>BMW 320 ModernLine</button>
-                    <button className={pickedCar === 'glk' ? 'active select-car-button' : 'select-car-button'} onClick={selectGLK}>Mercedes-Benz GLK</button>
-                    <button className={pickedCar === 'passat' ? 'active select-car-button' : 'select-car-button'} onClick={selectPassat}>VW Passat CC</button>
+                    <button className={carDetails.name === 'Audi A1' ? 'active select-car-button' : 'select-car-button'} onClick={() => selectCar('Audi A1')}>Audi A1 S-Line</button>
+                    <button className={carDetails.name === 'Golf 6' ? 'active select-car-button' : 'select-car-button'} onClick={() => selectCar('Golf 6')}>VW Golf 6</button>
+                    <button className={carDetails.name === 'Camry' ? 'active select-car-button' : 'select-car-button'} onClick={() => selectCar('Camry')}>Toyota Camry</button>
+                    <button className={carDetails.name === 'BMW 320' ? 'active select-car-button' : 'select-car-button'} onClick={() => selectCar('BMW 320')}>BMW 320 ModernLine</button>
+                    <button className={carDetails.name === 'GLK' ? 'active select-car-button' : 'select-car-button'} onClick={() => selectCar('GLK')}>Mercedes-Benz GLK</button>
+                    <button className={carDetails.name === 'Passat' ? 'active select-car-button' : 'select-car-button'} onClick={() => selectCar('Passat')}>VW Passat CC</button>
                 </div>
                 <div className="picked-car-images-container">
-                    {pickedCar === 'audi' && <img src={audiDisplaySrc} className="picked-car-image" alt="Audi A1 S-Line" />}
-                    {pickedCar === 'golf' && <img src={golfDisplaySrc} className="picked-car-image" alt="VW Golf 6" />}
-                    {pickedCar === 'camry' && <img src={camryDisplaySrc} className="picked-car-image" alt="Toyota Camry" />}
-                    {pickedCar === 'bmw' && <img src={bmwDisplaySrc} className="picked-car-image" alt="BMW 320 ModernLine" />}
-                    {pickedCar === 'glk' && <img src={glkDisplaySrc} className="picked-car-image" alt="Mercedes-Benz GLK" />}
-                    {pickedCar === 'passat' && <img src={passatDisplaySrc} className="picked-car-image" alt="VW Passat CC" />}
+                    {carDetails.name === 'Audi A1' && <img src={audiDisplaySrc} className="picked-car-image" alt="Audi A1 S-Line" />}
+                    {carDetails.name === 'Golf 6' && <img src={golfDisplaySrc} className="picked-car-image" alt="VW Golf 6" />}
+                    {carDetails.name === 'Camry' && <img src={camryDisplaySrc} className="picked-car-image" alt="Toyota Camry" />}
+                    {carDetails.name === 'BMW 320' && <img src={bmwDisplaySrc} className="picked-car-image" alt="BMW 320 ModernLine" />}
+                    {carDetails.name === 'GLK' && <img src={glkDisplaySrc} className="picked-car-image" alt="Mercedes-Benz GLK" />}
+                    {carDetails.name === 'Passat' && <img src={passatDisplaySrc} className="picked-car-image" alt="VW Passat CC" />}
                 </div>
                 <div className="table-and-button">
                     <div className="table">
-                        <div className="head"><span className="price-tag">${price}</span><span>/ rent per day</span></div>
-                        <div className="row"><span className="span-left">Model</span><span>{model}</span></div>
-                        <div className="row"><span className="span-left">Brand</span><span>{brand}</span></div>
-                        <div className="row"><span className="span-left">Year</span><span>{year}</span></div>
-                        <div className="row"><span className="span-left">Doors</span><span>{doors}</span></div>
-                        <div className="row"><span className="span-left">AC</span><span>{ac}</span></div>
-                        <div className="row"><span className="span-left">Transmission</span><span>{transmission}</span></div>
-                        <div className="row"><span className="span-left">Fuel</span><span>{fuel}</span></div>
+                        <div className="head"><span className="price-tag">${carDetails.price}</span><span>/ rent per day</span></div>
+                        <div className="row"><span className="span-left">Model</span><span>{carDetails.model}</span></div>
+                        <div className="row"><span className="span-left">Brand</span><span>{carDetails.brand}</span></div>
+                        <div className="row"><span className="span-left">Year</span><span>{carDetails.year}</span></div>
+                        <div className="row"><span className="span-left">Doors</span><span>{carDetails.doors}</span></div>
+                        <div className="row"><span className="span-left">AC</span><span>{carDetails.AC}</span></div>
+                        <div className="row"><span className="span-left">Transmission</span><span>{carDetails.transmission}</span></div>
+                        <div className="row"><span className="span-left">Fuel</span><span>{carDetails.fuel}</span></div>
                     </div>
                     <button className="reserve-button">Reserve now</button>
                 </div>
