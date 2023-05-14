@@ -15,7 +15,7 @@ const NavigationBar = () => {
                 <div className="logo-container">
                     <img src={navBarLogoSrc} alt="logo" className="logo" />
                 </div>
-                <button onClick={() => setNavigationDisplay(true)} className="nav-bar-menu-button"><i style={{color: "black !important"}} className="fa-solid fa-bars"></i></button>
+                <button onClick={() => setNavigationDisplay(true)} className="nav-bar-button"><i style={{color: "black !important"}} className="fa-solid fa-bars"></i></button>
                 {navigationDisplay && <i onClick={() => setNavigationDisplay(false)} className="fa-solid fa-xmark close-nav-bar"></i>}
                 {navigationDisplay && <ul className="hidden-nav-bar">
                     <li className="nav-link" onClick={() => setNavigationDisplay(false)}>
