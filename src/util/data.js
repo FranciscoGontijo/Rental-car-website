@@ -1,4 +1,4 @@
-//CARS DATABAE MOCK
+//CARS DATABASE MOCK
 //import images
 import audiDisplaySrc from "../assets/images/audi-a1-display.jpg";
 import golfDisplaySrc from "../assets/images/golf-6-display.jpg";
@@ -6,7 +6,8 @@ import camryDisplaySrc from "../assets/images/toyota-camry-display.jpg";
 import bmwDisplaySrc from "../assets/images/bmw-320-display.jpg";
 import glkDisplaySrc from "../assets/images/mercedes-glk-display.jpg";
 import passatDisplaySrc from "../assets/images/vw-passat-display.jpg";
- 
+
+
 export const cars = [
     {
         name: 'Audi A1',
@@ -81,3 +82,22 @@ export const cars = [
         AC: 'yes',
     }
 ]
+
+//BOOK A CAR SECTION
+export const carsList = [
+    'Audi A1 S-Line',
+    'VW Golf 6',
+    'Toyota Camry',
+    'BMW 320 ModernLine',
+    'Mercedes-Benz GLK',
+    'VW Passat CC'
+];
+
+export const citiesList = [
+    'Sydney',
+    'Brisbane',
+    'Gold Coast',
+    'Byron Bay',
+    'New Castle',
+    'Melbourne'
+];

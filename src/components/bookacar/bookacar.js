@@ -2,6 +2,8 @@ import React from "react";
 
 import './bookacar.css';
 
+import { carsList, citiesList } from "../../util/data";
+
 const BookACar = () => {
     return (
         <section className="book-a-car-container">
@@ -11,36 +13,21 @@ const BookACar = () => {
                     <label><i className="fa-solid fa-car"></i>Select Your Car Type <b>*</b></label>
                     <select>
                         <option>Select your car type</option>
-                        <option>Audi A1 S-Line</option>
-                        <option>VW Golf 6</option>
-                        <option>Toyota Camry</option>
-                        <option>BMW 320 ModernLine</option>
-                        <option>Mercedes-Benz GLK</option>
-                        <option>VW Passat CC</option>
+                        {carsList.map((carName) => <option>{carName}</option>)}
                     </select>
                 </div>
                 <div className="input-container">
                     <label><i className="fa-solid fa-location-dot"></i>Pick-up <b>*</b></label>
                     <select>
                         <option>Select pick up location</option>
-                        <option>Sydney</option>
-                        <option>Brisbane</option>
-                        <option>Gold Coast</option>
-                        <option>Byron Bay</option>
-                        <option>New Castle</option>
-                        <option>Melbourne</option>
+                        {citiesList.map((cityName) => <option>{cityName}</option>)}
                     </select>
                 </div>
                 <div className="input-container">
                     <label><i className="fa-solid fa-location-dot"></i>Drop-of <b>*</b></label>
                     <select>
                         <option>Select drop off location</option>
-                        <option>Sydney</option>
-                        <option>Brisbane</option>
-                        <option>Gold Coast</option>
-                        <option>Byron Bay</option>
-                        <option>New Castle</option>
-                        <option>Melbourne</option>
+                        {citiesList.map((cityName) => <option>{cityName}</option>)}
                     </select>
                 </div>
                 <div className="input-container">
